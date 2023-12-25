@@ -68,10 +68,10 @@
         qwerty {
             label = "Base";
             bindings = <
-&trans  &kp Q             &kp W           &kp E               &kp R           &kp T          &kp Y        &kp U            &kp I                    &kp O              &kp P                  &trans
-&trans  &kp A             &kp S           &kp D               &kp F           &kp G          &kp H        &kp J            &kp K                    &kp L              &kp SEMI               &trans
-&trans  &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B          &kp N        &mt RIGHT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &mt RIGHT_SHIFT SLASH  &trans
-                                          &lt 3 ESCAPE        &lt 2 TAB       &lt 1 SPACE    &lt 1 SPACE  &lt 2 BACKSPACE  &lt 3 ENTER
+&trans  &kp Q             &kp W           &kp E                  &kp R           &kp T          &kp Y        &kp U            &kp I                    &kp O              &kp P                  &trans
+&trans  &kp A             &kp S           &kp D                  &kp F           &kp G          &kp H        &kp J            &kp K                    &kp L              &kp SEMI               &trans
+&trans  &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C     &mt LEFT_GUI V  &kp B          &kp N        &mt RIGHT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &mt RIGHT_SHIFT SLASH  &trans
+                                          &mt LEFT_SHIFT ESCAPE  &lt 2 TAB       &lt 1 SPACE    &lt 1 SPACE  &lt 2 BACKSPACE  &mt RIGHT_SHIFT ENTER
             >;
         };
 
