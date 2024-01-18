@@ -68,30 +68,30 @@
         qwerty {
             label = "Base";
             bindings = <
-&trans  &kp Q             &kp W           &kp E                  &kp R           &kp T          &kp Y        &kp U            &kp I                    &kp O              &kp P                  &trans
-&trans  &kp A             &kp S           &kp D                  &kp F           &kp G          &kp H        &kp J            &kp K                    &kp L              &kp SEMI               &trans
-&trans  &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C     &mt LEFT_GUI V  &kp B          &kp N        &mt RIGHT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &mt RIGHT_SHIFT SLASH  &trans
-                                          &mt LEFT_SHIFT ESCAPE  &lt 2 TAB       &lt 1 SPACE    &lt 1 SPACE  &lt 2 BACKSPACE  &mt RIGHT_SHIFT ENTER
+&trans  &kp Q             &kp W               &kp E                  &kp R           &kp T          &kp Y        &kp U            &kp I                  &kp O                  &kp P                  &trans
+&trans  &kp A             &kp S               &kp D                  &kp F           &kp G          &kp H        &kp J            &kp K                  &kp L                  &kp SEMI               &trans
+&trans  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C         &mt LEFT_GUI V  &kp B          &kp N        &mt RIGHT_GUI M  &mt RIGHT_ALT COMMA    &mt RIGHT_CONTROL DOT  &mt RIGHT_SHIFT SLASH  &trans
+                                              &mt LEFT_SHIFT ESCAPE  &lt 2 TAB       &lt 1 SPACE    &lt 1 SPACE  &lt 2 BACKSPACE  &mt RIGHT_SHIFT ENTER
             >;
         };
 
         numbers {
             label = "Num";
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none
-&none  &none   &none   &none   &none   &none     &none   &kp N4  &kp N5  &kp N6  &none   &none
-&none  &trans  &trans  &trans  &trans  &none     &none   &kp N1  &kp N2  &kp N3  &trans  &none
-                       &trans  &trans  &trans    &trans  &trans  &kp N0
+&none  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none   &kp N4  &kp N5  &kp N6  &none   &none
+&none  &trans        &trans        &trans        &trans        &none           &none   &kp N1  &kp N2  &kp N3  &trans  &none
+                                   &trans        &trans        &trans          &trans  &trans  &kp N0
             >;
         };
 
         nav {
             label = "Nav";
             bindings = <
-&none  &none         &kp UP        &none         &none         &none           &kp HOME      &kp PAGE_UP  &kp UP             &kp PAGE_DOWN    &kp END           &none
-&none  &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none           &caps_word    &kp LEFT     &kp DOWN           &kp RIGHT        &kp C_PLAY_PAUSE  &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_REWIND  &kp C_MUTE   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_FF          &none
-                                   &trans        &trans        &trans          &trans        &trans       &trans
+&none  &none     &kp UP    &none      &none   &none     &kp HOME      &kp PAGE_UP  &kp UP             &kp PAGE_DOWN    &kp END           &none
+&none  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none     &caps_word    &kp LEFT     &kp DOWN           &kp RIGHT        &kp C_PLAY_PAUSE  &none
+&none  &trans    &trans    &trans     &trans  &trans    &kp C_REWIND  &kp C_MUTE   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_FF          &none
+                           &trans     &trans  &trans    &trans        &trans       &trans
             >;
         };
 
